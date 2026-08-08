@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Matches the public site: Inter as the interface face, smoothed. */
+html {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #FAFAFA;
+  color: #0A0A0A;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
+
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fadeIn 0.35s ease-out;
+}
+
+@layer components {
+  /* Pill CTAs, light tracking — the same button language as the public site.
+     Layout (flex-1, w-full, self-start) stays in the markup; these carry
+     colour, shape, weight and default sizing. */
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-full text-[13px] font-light
+           tracking-wide px-5 py-2.5 transition-all duration-200 whitespace-nowrap
+           disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-brand text-white hover:bg-brand-light shadow-sm hover:shadow-md;
+  }
+  .btn-ghost {
+    @apply btn bg-white border border-ink-200 text-ink-600 hover:bg-ink-100 hover:text-ink;
+  }
+
+  /* Small uppercase micro-label — the site's eyebrow treatment, applied to
+     form fields so labels read as a system rather than as bold sentences. */
+  .field-label {
+    @apply block mb-2 text-[11px] font-medium uppercase tracking-widest text-ink-500;
+  }
+}

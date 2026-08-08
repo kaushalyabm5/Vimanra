@@ -1,0 +1,167 @@
+{
+  "ADMINS": [
+    {
+      "admin_id": 1,
+      "username": "admin",
+      "password_hash": "$2a$10$Z4tqwy5JQ9e0DJOOl9oZp.H9cdrGx0FqkrdSJ.d.h5cFsFpm3Cs3G",
+      "email": "admin@vimanra.com",
+      "created_at": "2026-07-21T10:37:09.416Z"
+    }
+  ],
+  "SERVICES": [
+    {
+      "service_id": 1,
+      "admin_id": 1,
+      "service_name": "Lakeside Dining & BBQ",
+      "description": "Private romantic candle-lit dining overlooking the serene Udawalawe Lake.",
+      "icon": "Utensils",
+      "status": "Active",
+      "created_at": "2026-07-21T10:37:09.418Z"
+    },
+    {
+      "service_id": 2,
+      "admin_id": 1,
+      "service_name": "Udawalawe Wildlife Safari",
+      "description": "Guided 4x4 Jeep safaris to spot wild elephants and rich biodiversity.",
+      "icon": "Compass",
+      "status": "Active",
+      "created_at": "2026-07-21T10:37:09.419Z"
+    },
+    {
+      "service_id": 3,
+      "admin_id": 1,
+      "service_name": "Kumbuk Herbal Spa",
+      "description": "Traditional Sri Lankan Ayurvedic massages & outdoor wellness therapy.",
+      "icon": "Sparkles",
+      "status": "Active",
+      "created_at": "2026-07-21T10:37:09.419Z"
+    },
+    {
+      "service_id": 4,
+      "admin_id": 1,
+      "service_name": "Infinity Pool & Sun Lounge",
+      "description": "Panoramically aligned infinity pool with refreshing tropical mocktails.",
+      "icon": "Waves",
+      "status": "Active",
+      "created_at": "2026-07-21T10:37:09.421Z"
+    },
+    {
+      "service_id": 5,
+      "admin_id": 1,
+      "service_name": "Helipad Transfer",
+      "description": "VIP Helipad shuttle",
+      "icon": "ConciergeBell",
+      "status": "Active",
+      "created_at": "2026-07-21T10:40:17.452Z"
+    }
+  ],
+  "GALLERY": [
+    {
+      "image_id": 1,
+      "admin_id": 1,
+      "title": "Lakeside Villa Sunset",
+      "category": "Resort",
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-07-21T10:37:09.423Z"
+    },
+    {
+      "image_id": 2,
+      "admin_id": 1,
+      "title": "Deluxe Suite Interior",
+      "category": "Suites",
+      "image_url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-07-21T10:37:09.423Z"
+    },
+    {
+      "image_id": 3,
+      "admin_id": 1,
+      "title": "Elephant Safari Moment",
+      "category": "Safari",
+      "image_url": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-07-21T10:37:09.425Z"
+    },
+    {
+      "image_id": 4,
+      "admin_id": 1,
+      "title": "Organic Gourmet Breakfast",
+      "category": "Dining",
+      "image_url": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-07-21T10:37:09.426Z"
+    },
+    {
+      "image_id": 5,
+      "admin_id": 1,
+      "title": "Helipad View",
+      "category": "Resort",
+      "image_url": "https://example.com/helipad.jpg",
+      "uploaded_at": "2026-07-21T10:40:17.457Z",
+      "created_at": "2026-07-21T10:40:17.457Z"
+    }
+  ],
+  "REVIEWS": [
+    {
+      "review_id": 1,
+      "admin_id": 1,
+      "guest_name": "Samantha & David Miller",
+      "rating": 5,
+      "review": "Unforgettable stay at Vimanra! The lakeside views and safari guidance were beyond world-class.",
+      "created_at": "2026-07-21T10:37:09.427Z"
+    },
+    {
+      "review_id": 2,
+      "admin_id": 1,
+      "guest_name": "Dr. Aris Thorne",
+      "rating": 5,
+      "review": "Exceptional hospitality, peaceful Kumbuk garden ambiance, and top tier dining.",
+      "created_at": "2026-07-21T10:37:09.428Z"
+    },
+    {
+      "review_id": 3,
+      "admin_id": 1,
+      "guest_name": "Emma Watson",
+      "rating": 5,
+      "review": "Magical lakeside experience!",
+      "created_at": "2026-07-21T10:40:17.460Z"
+    }
+  ],
+  "ROOMS": [
+    {
+      "room_id": 1,
+      "room_type": "Deluxe Lake View Villa",
+      "price": 215,
+      "capacity": 2,
+      "description": "Spacious private villa with a panoramic balcony overlooking Udawalawe lake.",
+      "image_url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+      "status": "Available",
+      "created_at": "2026-07-21T10:37:09.429Z",
+      "updated_at": "2026-07-21T10:40:17.467Z"
+    },
+    {
+      "room_id": 2,
+      "room_type": "Kumbuk Garden Suite",
+      "price": 240,
+      "capacity": 3,
+      "description": "Luxury suite nestled under indigenous Kumbuk trees with private Jacuzzi.",
+      "image_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "status": "Available",
+      "created_at": "2026-07-21T10:37:09.431Z"
+    },
+    {
+      "room_id": 3,
+      "room_type": "Presidential Safari Chalet",
+      "price": 350,
+      "capacity": 4,
+      "description": "Top-tier two-bedroom luxury chalet with personal plunge pool & butler service.",
+      "image_url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+      "status": "Available",
+      "created_at": "2026-07-21T10:37:09.432Z"
+    }
+  ],
+  "counters": {
+    "admin_id": 1,
+    "service_id": 5,
+    "image_id": 5,
+    "review_id": 3,
+    "room_id": 3
+  }
+}
