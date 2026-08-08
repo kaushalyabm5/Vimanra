@@ -73,3 +73,4 @@ initTables()
   .catch((err) => {
     console.error("Failed to initialize database:", err);
   });
+export default app;
